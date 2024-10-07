@@ -328,6 +328,54 @@ main_slide div:nth-child(2) {
     bottom: 0;
     border-radius: 10px;
 }
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes it center vertically */
+    background-color: #f8f9fa; /* Optional: add a background */
+}
+.reservation-form {
+    background-color: #fff;
+    margin-left: 120px;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+.reservation-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.reservation-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.reservation-form button:hover {
+    background-color: #218838;
+}
+
 @media only screen and (max-width: 786px) {
 
     .header .nav,
